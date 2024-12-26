@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple HTML Page</h1>
+    </header>
+    <main>
+        <p>This is a simple HTML file example. You can add your content here.</p>
+        <button onclick="sayHello()">Click Me</button>
+    </main>
+    <footer>
+        <p>&copy; 2024 Simple HTML Page. All rights reserved.</p>
+    </footer>
+    <script>
+        function sayHello() {
+            alert('Hello! Welcome to my simple HTML page.');
+        }
+    </script>
+</body>
+</html>
