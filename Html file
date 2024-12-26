@@ -35,7 +35,7 @@
         <h1>Welcome to My Simple manu HTML Page</h1>
     </header>
     <main>
-        <p>This is a simple HTML manu file example. You can add your content here.</p>
+        <p>This is a simple HTML manu2 file example. You can add your content here.</p>
         <button onclick="sayHello()">Click Me</button>
     </main>
     <footer>
